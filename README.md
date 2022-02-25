@@ -47,7 +47,7 @@ This project uses **CSS Modules**. CSS modules are ultimately very similar to va
 
 ```js
 /* Something.js */
-import styles from './Something.module.css';
+import styles from "./Something.module.css";
 
 function Something() {
   return <div className={styles.wrapper}>I'll be 500px wide!</div>;
